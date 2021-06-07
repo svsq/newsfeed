@@ -16,8 +16,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-
-        app:srcCompat="@drawable/ic_dummy" />
+        app:srcCompat="@drawable/ic_dummy"
+        tools:ignore="ContentDescription" />
 
     <View
         android:id="@+id/view"
