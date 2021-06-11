@@ -6,6 +6,7 @@ import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
+import timber.log.Timber
 import tk.svsq.newsfeed.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

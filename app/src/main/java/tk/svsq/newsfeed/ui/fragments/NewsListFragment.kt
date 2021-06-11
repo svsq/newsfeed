@@ -2,6 +2,7 @@ package tk.svsq.newsfeed.ui.fragments
 
 import android.os.Bundle
 import android.view.View
+import timber.log.Timber
 import tk.svsq.newsfeed.R
 
 class NewsListFragment : BaseFragment() {
@@ -10,7 +11,5 @@ class NewsListFragment : BaseFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-
     }
 }
