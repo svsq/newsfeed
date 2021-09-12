@@ -1,4 +1,4 @@
-package tk.svsq.newsfeed.data.network
+package tk.svsq.newsfeed.api.common
 
 enum class Status {
     RUNNING,

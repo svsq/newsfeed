@@ -1,16 +1,12 @@
-package tk.svsq.newsfeed.data.model
+package tk.svsq.newsfeed.api.responses
 
-import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
-import java.io.Serializable
+import tk.svsq.newsfeed.data.model.NewsListModel
 
 data class NewsListResponse(
-    @Expose
     @SerializedName("source")
     private var source: String? = null,
-    @Expose
     @SerializedName("status")
     private var status: String? = null,
-    @Expose
     @SerializedName("articles")
-    internal var articles: List<NewsListModel>) : Serializable
+    internal var articles: List<NewsListModel>)

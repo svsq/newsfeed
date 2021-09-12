@@ -1,12 +1,12 @@
-package tk.svsq.newsfeed.data.network
+package tk.svsq.newsfeed.api
 
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
 import tk.svsq.newsfeed.Constants.API_VERSION
-import tk.svsq.newsfeed.data.model.NewsListResponse
+import tk.svsq.newsfeed.api.responses.NewsListResponse
 
-interface NewsApi {
+interface NewsApiService {
 
     @GET("/$API_VERSION/everything")
     suspend fun getTopNewsList(

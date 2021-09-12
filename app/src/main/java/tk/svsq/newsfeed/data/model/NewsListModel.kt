@@ -11,23 +11,17 @@ import java.io.Serializable
 data class NewsListModel  (
 
     @PrimaryKey
-    @Expose
     @SerializedName("title")
     var title: String = "",
-    @Expose
     @SerializedName("urlToImage")
     var urlToImage: String? = null,
-    @Expose
     @SerializedName("description")
     var description: String? = null,
-    @Expose
     @SerializedName("author")
     var author: String? = null,
-    @Expose
     @SerializedName("url")
     var url: String? = null,
-    @Expose
     @SerializedName("publishedAt")
     var publishedAt: String? = null,
 
-    @Embedded @SerializedName("source") val source : Source? = null ) : Serializable
+    @Embedded @SerializedName("source") val source : Source? = null )
